@@ -3,8 +3,8 @@ import { ToastService } from '../toast.service';
 import { Toast } from '../toast.service';  // Make sure to import Toast interface if you want type checking
 
 @Component({
-  selector: 'app-toast',
-  template: `
+    selector: 'app-toast',
+    template: `
     <ng-container>
       <!-- Loop through each toast in the toastService.toasts array -->
       <ngb-toast
@@ -30,6 +30,7 @@ import { Toast } from '../toast.service';  // Make sure to import Toast interfac
       </ngb-toast>
     </ng-container>
   `,
+    standalone: false
 })
 export class ToastComponent {
   @HostBinding('class.ngb-toasts') expanded = true;

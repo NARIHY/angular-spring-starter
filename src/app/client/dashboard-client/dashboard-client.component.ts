@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-dashboard-client',
-  templateUrl: './dashboard-client.component.html',
-  styleUrl: './dashboard-client.component.css'
+    selector: 'app-dashboard-client',
+    templateUrl: './dashboard-client.component.html',
+    styleUrl: './dashboard-client.component.css',
+    standalone: false
 })
 export class DashboardClientComponent implements OnInit {
 // Loader

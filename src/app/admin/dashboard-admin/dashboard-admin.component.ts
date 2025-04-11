@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-dashboard-admin',
-  templateUrl: './dashboard-admin.component.html',
-  styleUrl: './dashboard-admin.component.css'
+    selector: 'app-dashboard-admin',
+    templateUrl: './dashboard-admin.component.html',
+    styleUrl: './dashboard-admin.component.css',
+    standalone: false
 })
 export class DashboardAdminComponent implements OnInit {
 // Loader
